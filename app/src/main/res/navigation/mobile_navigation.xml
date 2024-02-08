@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.apptonvides.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.apptonvides.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.apptonvides.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/logRegInicioFragment"
+        android:name="com.example.apptonvides.LogRegInicioFragment"
+        android:label="fragment_log_reg_inicio"
+        tools:layout="@layout/fragment_log_reg_inicio" />
+    <fragment
+        android:id="@+id/logInFragment"
+        android:name="com.example.apptonvides.LogInFragment"
+        android:label="fragment_log_in"
+        tools:layout="@layout/fragment_log_in" />
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.example.apptonvides.SignInFragment"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in" />
+    <fragment
+        android:id="@+id/resetContrasenaUnoFragment"
+        android:name="com.example.apptonvides.ResetContrasenaUnoFragment"
+        android:label="fragment_reset_contrasena_uno"
+        tools:layout="@layout/fragment_reset_contrasena_uno" />
+    <fragment
+        android:id="@+id/resetContrasenaDosFragment"
+        android:name="com.example.apptonvides.ResetContrasenaDosFragment"
+        android:label="fragment_reset_contrasena_dos"
+        tools:layout="@layout/fragment_reset_contrasena_dos" />
+    <fragment
+        android:id="@+id/resetContrasenaTresFragment"
+        android:name="com.example.apptonvides.ResetContrasenaTresFragment"
+        android:label="fragment_reset_contrasena_tres"
+        tools:layout="@layout/fragment_reset_contrasena_tres" />
+    <fragment
+        android:id="@+id/resetContrasenaQuatroFragment"
+        android:name="com.example.apptonvides.ResetContrasenaQuatroFragment"
+        android:label="fragment_reset_contrasena_quatro"
+        tools:layout="@layout/fragment_reset_contrasena_quatro" />
+    <fragment
+        android:id="@+id/perfilFragment"
+        android:name="com.example.apptonvides.PerfilFragment"
+        android:label="fragment_perfil"
+        tools:layout="@layout/fragment_perfil" />
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.example.apptonvides.ChatFragment"
+        android:label="fragment_chat"
+        tools:layout="@layout/fragment_chat" />
+    <fragment
+        android:id="@+id/albumsFragment"
+        android:name="com.example.apptonvides.AlbumsFragment"
+        android:label="fragment_albums"
+        tools:layout="@layout/fragment_albums" />
+    <fragment
+        android:id="@+id/amigosFragment"
+        android:name="com.example.apptonvides.AmigosFragment"
+        android:label="fragment_amigos"
+        tools:layout="@layout/fragment_amigos" />
+    <fragment
+        android:id="@+id/buscarFragment"
+        android:name="com.example.apptonvides.BuscarFragment"
+        android:label="fragment_buscar"
+        tools:layout="@layout/fragment_buscar" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.apptonvides.HomeFragment"
+        android:label="fragment_home2"
+        tools:layout="@layout/fragment_home2" />
+    <fragment
+        android:id="@+id/playlistFragment"
+        android:name="com.example.apptonvides.PlaylistFragment"
+        android:label="fragment_playlist"
+        tools:layout="@layout/fragment_playlist" />
+</navigation>
